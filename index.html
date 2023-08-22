@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>For my baby</title>
+<style>
+
+.container{
+    display:flex;
+    justify-content:space-between;
+}
+
+.container > *{
+    border:0;
+    max-width:400px;
+    height:200px;
+    margin-right: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bolder;
+    font-size: 2rem;
+    flex:0;
+    text-align: center;
+    border-radius: 5px;
+    padding:100px
+
+}
+.banana{
+    background-color: yellowgreen;
+}
+.chinchin{
+    background-color: red;
+}
+.groundnut{
+    background-color: blueviolet;
+}
+.kpekere{
+    background-color: aqua;
+}
+@media(max-width:1200px){
+    .container{
+        flex-direction:column;
+        height:100%;
+        gap:1rem;
+    }
+}
+</style>
+
+</head>
+
+<body>
+    <div class="container">
+           <div class="banana">Banana🍌</div> 
+           <div class="chinchin">Chinchin🍿</div>
+           <div class="groundnut">Groundnut🥜</div>
+           <div class="kpekere">Kpekere🌝</div> 
+    </div>s
+</body>
+</html>
